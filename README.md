@@ -32,7 +32,7 @@ def |
 
 ```javascript
 //SOLUCAO 1
-/*Entrada de dados será pelo gets()*/
+/*Entrada de dados sera pelo gets()*/
 quantNum = gets();
 getsString = [];
 
