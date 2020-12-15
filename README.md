@@ -45,7 +45,7 @@ do {
     for (i = 0; i < quantNum; i++) getsString = [...getsString, gets()];
     /*Chama a função e imprime o resultado*/
     console.log(verificarConjuntoString(getsString) ? 'Conjunto Ruim' : 'Conjunto Bom');
-    /* pop() - Limpa o array*/
+    /* pop() - Limpa o array, para ser reutilizado no proximo conjunto de palavras*/
     while (getsString.length) getsString.pop();
 
 } while (quantNum = gets());
